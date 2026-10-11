@@ -4,7 +4,7 @@ version = "0.1.0"
 description = "MCP server for Lex Machina: read-only litigation data and analytics"
 readme = "README.md"
 license = { text = "MIT" }
-requires-python = "==3.12.*"
+requires-python = ">=3.12"
 dependencies = [
     "httpx==0.28.1",
     "mcp>=2.3,<3",
@@ -16,6 +16,8 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "Programming Language :: Python :: 3 :: Only",
     "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.14",
     "Topic :: Office/Business",
 ]
 

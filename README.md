@@ -1,7 +1,7 @@
 # Lex Machina MCP server
 
 [![CI](https://github.com/RosenAdvertising/lexmachina-mcp/actions/workflows/ci.yml/badge.svg)](https://github.com/RosenAdvertising/lexmachina-mcp/actions/workflows/ci.yml)
-[![Python 3.12](https://img.shields.io/badge/python-3.12-blue.svg)](https://www.python.org/downloads/)
+[![Python 3.12+](https://img.shields.io/badge/python-3.12%2B-blue.svg)](https://www.python.org/downloads/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 [![MCP](https://img.shields.io/badge/MCP-2026--07--28-7C3AED.svg)](https://modelcontextprotocol.io)
 
@@ -45,7 +45,7 @@ Every result-listing tool has a bounded `limit` (1 to 100, default 25). The serv
 
 ## Requirements
 
-- Python 3.12
+- Python 3.12+
 - [uv](https://docs.astral.sh/uv/)
 - Lex Machina API application credentials with the Lex Machina API service activated
 - An MCP client such as Claude Desktop
