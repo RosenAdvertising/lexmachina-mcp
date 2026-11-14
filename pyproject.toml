@@ -32,7 +32,7 @@ lexmachina-mcp-verify = "lexmachina_mcp.setup:verify"
 lexmachina-mcp = "lexmachina_mcp.server:run"
 
 [build-system]
-requires = ["hatchling==1.32.4"]
+requires = ["hatchling==1.33.0"]
 build-backend = "hatchling.build"
 
 [dependency-groups]
